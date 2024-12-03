@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="Pure Python">
-      <change afterPath="$PROJECT_DIR$/Deneme.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials_1.py" afterDir="false" />
+    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="Pure Python Data types">
+      <change afterPath="$PROJECT_DIR$/tutorials_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Deneme1.executor": "Run",
-    "Python.tutorials_1.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/1_Kodlar/Python/Project/Python_tutorials/djangoProject1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Deneme1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tutorials_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/1_Kodlar/Python/Project/Python_tutorials/djangoProject1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\1_Kodlar\Python\Project\Python_tutorials\djangoProject1" />
@@ -162,7 +162,8 @@
       <option name="presentableId" value="Default" />
       <updated>1733142398309</updated>
       <workItem from="1733142418231" duration="3004000" />
-      <workItem from="1733167397353" duration="4940000" />
+      <workItem from="1733167397353" duration="5631000" />
+      <workItem from="1733208664930" duration="7205000" />
     </task>
     <task id="LOCAL-00001" summary="Pure Python">
       <option name="closed" value="true" />
@@ -188,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733168774798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pure Python Data types">
+      <option name="closed" value="true" />
+      <created>1733173125224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733173125224</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,10 +205,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pure Python" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pure Python" />
+    <MESSAGE value="Pure Python Data types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pure Python Data types" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/djangoProject1$tutorials_1.coverage" NAME="tutorials_1 Coverage Results" MODIFIED="1733172972067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/djangoProject1$tutorials_1.coverage" NAME="tutorials_1 Coverage Results" MODIFIED="1733256446502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$Deneme1.coverage" NAME="Deneme1 Coverage Results" MODIFIED="1733145214969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
