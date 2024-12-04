@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="Operatör">
+    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="rename">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials_2_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials_2_string.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     "Python.Deneme1.executor": "Run",
     "Python.tutorials_1.executor": "Run",
     "Python.tutorials_2.executor": "Run",
+    "Python.tutorials_2_string (1).executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -67,7 +68,7 @@
       <recent name="E:\1_Kodlar\Python\Project\Python_tutorials\djangoProject1\deneme" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tutorials_2">
+  <component name="RunManager" selected="Python.tutorials_2_string (1)">
     <configuration name="Deneme1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangoProject1" />
       <option name="ENV_FILES" value="" />
@@ -91,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorials_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tutorials_1_operator_pure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangoProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,7 +106,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials_1.py" />
+      <option name="SCRIPT_NAME" value="E:\1_Kodlar\Python\Project\Python_tutorials\djangoProject1\tutorials_1_operator_pure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorials_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tutorials_2_string (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangoProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +129,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials_2_string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tutorials_2_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\1_Kodlar\Python\Project\Python_tutorials\djangoProject1\tutorials_2_string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,8 +187,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tutorials_2" />
-        <item itemvalue="Python.tutorials_1" />
+        <item itemvalue="Python.tutorials_2_string (1)" />
+        <item itemvalue="Python.tutorials_2_string" />
+        <item itemvalue="Python.tutorials_1_operator_pure" />
         <item itemvalue="Python.Deneme1" />
       </list>
     </recent_temporary>
@@ -188,7 +213,7 @@
       <workItem from="1733142418231" duration="3004000" />
       <workItem from="1733167397353" duration="5631000" />
       <workItem from="1733208664930" duration="7308000" />
-      <workItem from="1733297986821" duration="5754000" />
+      <workItem from="1733297986821" duration="8282000" />
     </task>
     <task id="LOCAL-00001" summary="Pure Python">
       <option name="closed" value="true" />
@@ -238,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733258278571</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="String">
+      <option name="closed" value="true" />
+      <created>1733321257708</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733321257708</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rename">
+      <option name="closed" value="true" />
+      <created>1733321294229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733321294229</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,11 +289,14 @@
     <MESSAGE value="Pure Python" />
     <MESSAGE value="Pure Python Data types" />
     <MESSAGE value="Operatör" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operatör" />
+    <MESSAGE value="String" />
+    <MESSAGE value="rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_1.coverage" NAME="tutorials_1 Coverage Results" MODIFIED="1733256446502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_2.coverage" NAME="tutorials_2 Coverage Results" MODIFIED="1733321237343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/djangoProject1$tutorials_2_string__1_.coverage" NAME="tutorials_2_string (1) Coverage Results" MODIFIED="1733325662800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$Deneme1.coverage" NAME="Deneme1 Coverage Results" MODIFIED="1733145214969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

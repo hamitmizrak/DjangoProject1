@@ -67,6 +67,12 @@ metin72 = "Dersi"
 sonuc7 = metin71 + metin72
 print(sonuc7)  # Python Dersi
 
+# 8-) join(iterable)
+# Iterable (liste, tuple, vb.) içindeki elemanları bir stringle birleştirir.
+liste = ["Python", "join"]
+print(" ".join(liste))  # Python Dersi
+
+
 print("##########################################")
 # 8-) Parçalama (Slicing): Stringlerin belirli bir kısmını alabilirsiniz.
 metin8 = "Python"
@@ -88,6 +94,8 @@ print(f"Merhaba, benim adım {name9} soyadım {surname9}")
 
 print("##########################################")
 # 9-) Arama ve Değiştirme:
+# Alt stringin, ana string içinde ilk geçtiği indeksini döner.
+# Alt string bulunamazsa -1 döner.
 # find(): Alt string arar.
 
 metin10 = "Python programlama dili"
@@ -114,9 +122,34 @@ print("Küçük Harf: ",metin12.lower())
 print("Hepsi Küçük Harf: ",metin12.islower())
 print("Hepsi Küçük Harf: ",metin12.lower().islower())
 
+# 12-2. casefold()
+# Stringin tüm karakterlerini küçük harfe dönüştürür.
+# Unicode karakterler için büyük-küçük harf dönüşümlerinde daha güçlüdür.
+metin122 = "ß"
+print(metin122.casefold())  # ss
+
+
+# 12-3 endswith(suffix, start, end)
+# Stringin belirtilen bir alt string ile bitip bitmediğini kontrol eder.
+metin122 = "Merhaba Python"
+print(metin122.endswith("Python"))  # True
+
+# 12-4 startswith(suffix, start, end)
+print(metin122.startswith("Python"))  # True
+
+
+# 12-5 index(substring, start, end)
+# Alt stringin, ana string içinde ilk geçtiği indeksini döner.
+# Alt string bulunamazsa hata verir (ValueError).
+metin125 = "Python öğren, Python uygula"
+print(metin125.index("öğren"))  # 7
+
+
 
 print("##########################################")
 # 13-) CAPITALIZE
+# Stringin sadece ilk karakterini büyük, diğerlerini küçük yapar.
+# Çoğunlukla cümle başlıkları oluşturmak için kullanılır.
 metin13 = "programlama"
 print("capitalize:",metin13.capitalize())
 
@@ -179,24 +212,103 @@ metin = "Python 101 dersi"
 pattern = r"\d+"
 sonuc = re.findall(pattern, metin)
 print(sonuc)  # ['101']
-"""
-import re: Python'un düzenli ifadeler (regex) ile çalışmasını sağlayan re modülünü içe aktarır.
-metin = "Python 101 dersi": metin adında bir string değişken tanımlar.
-pattern = r"\d+":
-\d : Bir rakamı ifade eder (0-9).
-+ : Bir veya daha fazla rakamın eşleşmesini sağlar.
-r : Raw string literal (ham string) tanımıdır, ters eğik çizgiyi (\) özel bir karakter olarak değil, doğrudan regex deseni olarak işler.
-re.findall(pattern, metin):
-findall fonksiyonu, verilen metin içinde regex desenine uyan tüm eşleşmeleri bulur ve bir liste olarak döner.
-"""
+
+
+# import re: Python'un düzenli ifadeler (regex) ile çalışmasını sağlayan re modülünü içe aktarır.
+# metin = "Python 101 dersi": metin adında bir string değişken tanımlar.
+# pattern = r"\d+":
+# \d : Bir rakamı ifade eder (0-9).
+# + : Bir veya daha fazla rakamın eşleşmesini sağlar.
+# r : Raw string literal (ham string) tanımıdır, ters eğik çizgiyi (\) özel bir karakter olarak değil, doğrudan regex deseni olarak işler.
+# re.findall(pattern, metin):
+# findall fonksiyonu, verilen metin içinde regex desenine uyan tüm eşleşmeleri bulur ve bir liste olarak döner.
+
 
 print("##########################################")
 # 21-) İleri Düzey Formatlama:
-# str.format() veya f-string ile karmaşık yapılandırmalar.
 # Raw String: r"metin" şeklinde tanımlanır, kaçış karakterlerini yok sayar.
 print(r"C:\kullanıcı\dosya")  # Kaçış karakteri işlenmez
 print(r"C:\kullanıcı\dosya\naltsatır")  # Kaçış karakteri işlenmez
-print("C:\kullanıcı\dosya\naltsatır")  # Kaçış karakteri işlenmez
+# print("C:\kullanıcı\dosya\naltsatır")  # Kaçış karakteri işlenmez
+
+
+print("##########################################")
+# 22-) center(width, char)
+# Stringi belirli bir genişliğe göre ortalar ve etrafını belirtilen karakterle doldurur.
+metin22 = "Python"
+print(metin22.center(20, '*'))  # *******Python*******
+
+
+print("##########################################")
+# 23-) count(substring, start, end)
+# String içinde bir alt stringin kaç kez geçtiğini döner.
+# Alt stringin, ana string içinde kaç kez geçtiğini döner.
+# İsteğe bağlı olarak başlangıç ve bitiş indeksleri belirtilebilir.
+metin23 = "Python öğren, Python uygula"
+search23="Python"
+print(search23+" kelimesi: ",metin23.count(search23))  # 2
+
+print("##########################################")
+# 24-) encode(encoding, errors)
+# Stringi belirtilen bir kodlamaya göre (örneğin, UTF-8) kodlar.
+# encode(encoding="utf-8", errors="strict")
+# Stringi belirtilen kodlamaya dönüştürür.
+# errors parametresi ile hata işleme yöntemi belirlenir.
+metin24 = "Python"
+print(metin24.encode("utf-8"))  # b'Python'
+
+
+print("##########################################")
+# 25-) expandtabs(tabsize)
+# Stringdeki tab karakterlerini (\t) belirtilen sayıda boşlukla değiştirir.
+metin25 = "Python\tProgramlama"
+print(metin25.expandtabs(50))  # Python    Programlama
+
+
+print("##########################################")
+# 26-) isalnum()
+# Stringin sadece harf ve rakam içerip içermediğini kontrol eder.
+# metin26 = "Python"
+metin26 = "Python44"
+print(metin26.isalnum())  # True
+
+print("##########################################")
+# 27-) isalpha()
+# Stringin sadece harf içerip içermediğini kontrol eder.
+metin27 = "Python"
+print("Sadece harf mi ?", metin27.isalpha())  # True
+
+# 28-)  isdigit()
+# Stringin sadece rakam içerip içermediğini kontrol eder.
+metin28 = "12345"
+print("Sadece sayı mi ?",metin28.isdigit())  # True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # # Metot () dir: Fonksiyon okur yazarlığı için
 # # print(dir("java"));
