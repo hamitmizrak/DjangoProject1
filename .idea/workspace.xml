@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="hight level">
-      <change afterPath="$PROJECT_DIR$/tutorials_8_1_list.py" afterDir="false" />
+    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="List">
+      <change afterPath="$PROJECT_DIR$/tutorials_8_2_tuple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     "Python.tutorials_6_lambda.executor": "Run",
     "Python.tutorials_7_hight_level_function.executor": "Run",
     "Python.tutorials_8_1_list.executor": "Run",
+    "Python.tutorials_8_2_tuple.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -75,30 +76,7 @@
       <recent name="E:\1_Kodlar\Python\Project\Python_tutorials\djangoProject1\deneme" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tutorials_8_1_list">
-    <configuration name="tutorials_4_loop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="djangoProject1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials_4_loop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.tutorials_8_2_tuple">
     <configuration name="tutorials_5_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="djangoProject1" />
       <option name="ENV_FILES" value="" />
@@ -191,6 +169,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tutorials_8_2_tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials_8_2_tuple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="djangoProject1" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProject1" />
       <option name="ENV_FILES" value="" />
@@ -217,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tutorials_8_2_tuple" />
         <item itemvalue="Python.tutorials_8_1_list" />
         <item itemvalue="Python.tutorials_7_hight_level_function" />
         <item itemvalue="Python.tutorials_6_lambda" />
         <item itemvalue="Python.tutorials_5_function" />
-        <item itemvalue="Python.tutorials_4_loop" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +251,7 @@
       <workItem from="1733471797594" duration="1565000" />
       <workItem from="1733479762881" duration="3801000" />
       <workItem from="1733490269967" duration="5371000" />
-      <workItem from="1733574697933" duration="4228000" />
+      <workItem from="1733574697933" duration="7041000" />
     </task>
     <task id="LOCAL-00001" summary="Pure Python">
       <option name="closed" value="true" />
@@ -372,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733577411469</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="List">
+      <option name="closed" value="true" />
+      <created>1733579019971</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733579019971</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +398,8 @@
     <MESSAGE value="Function" />
     <MESSAGE value="lambda expression" />
     <MESSAGE value="hight level" />
-    <option name="LAST_COMMIT_MESSAGE" value="hight level" />
+    <MESSAGE value="List" />
+    <option name="LAST_COMMIT_MESSAGE" value="List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,7 +428,8 @@
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_6_lambda.coverage" NAME="tutorials_6_lambda Coverage Results" MODIFIED="1733491789275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_3_condi_loop.coverage" NAME="tutorials_3_condi_loop Coverage Results" MODIFIED="1733393954763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_7_hight_level_function.coverage" NAME="tutorials_7_hight_level_function Coverage Results" MODIFIED="1733575966297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/djangoProject1$tutorials_8_1_list.coverage" NAME="tutorials_8_1_list Coverage Results" MODIFIED="1733578756325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/djangoProject1$tutorials_8_1_list.coverage" NAME="tutorials_8_1_list Coverage Results" MODIFIED="1733578943803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/djangoProject1$tutorials_8_2_tuple.coverage" NAME="tutorials_8_2_tuple Coverage Results" MODIFIED="1733590232821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_4_loop.coverage" NAME="tutorials_4_loop Coverage Results" MODIFIED="1733402022945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_2_string__1_.coverage" NAME="tutorials_2_string (1) Coverage Results" MODIFIED="1733325689956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$Deneme1.coverage" NAME="Deneme1 Coverage Results" MODIFIED="1733145214969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
