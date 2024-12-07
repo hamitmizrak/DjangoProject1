@@ -75,7 +75,7 @@ frozen = frozenset([1, 2, 3])
 print(frozen)   #Çıktı: frozenset({1, 2, 3})
 
 # Değiştirmeye çalışırsanız hata alırsınız
-frozen.add(4)   #AttributeError
+# frozen.add(4)   #AttributeError
 
 
 

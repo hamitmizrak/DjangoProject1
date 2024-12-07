@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="Tuple">
-      <change afterPath="$PROJECT_DIR$/tutorials_8_3_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="Set" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +250,7 @@
       <workItem from="1733479762881" duration="3801000" />
       <workItem from="1733490269967" duration="5371000" />
       <workItem from="1733574697933" duration="8672000" />
-      <workItem from="1733601603245" duration="767000" />
+      <workItem from="1733601603245" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="Pure Python">
       <option name="closed" value="true" />
@@ -399,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733590318404</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Set">
+      <option name="closed" value="true" />
+      <created>1733602442401</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733602442401</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +423,8 @@
     <MESSAGE value="hight level" />
     <MESSAGE value="List" />
     <MESSAGE value="Tuple" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tuple" />
+    <MESSAGE value="Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -448,7 +454,7 @@
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_5_function.coverage" NAME="tutorials_5_function Coverage Results" MODIFIED="1733481313788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_1.coverage" NAME="tutorials_1 Coverage Results" MODIFIED="1733256446502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_3_condi_loop.coverage" NAME="tutorials_3_condi_loop Coverage Results" MODIFIED="1733393954763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/djangoProject1$tutorials_8_3_set.coverage" NAME="tutorials_8_3_set Coverage Results" MODIFIED="1733602145958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/djangoProject1$tutorials_8_3_set.coverage" NAME="tutorials_8_3_set Coverage Results" MODIFIED="1733602374755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_8_1_list.coverage" NAME="tutorials_8_1_list Coverage Results" MODIFIED="1733578943803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_8_2_tuple.coverage" NAME="tutorials_8_2_tuple Coverage Results" MODIFIED="1733590232821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject1$tutorials_4_loop.coverage" NAME="tutorials_4_loop Coverage Results" MODIFIED="1733402022945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
