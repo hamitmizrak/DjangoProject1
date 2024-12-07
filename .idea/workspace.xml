@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="List">
-      <change afterPath="$PROJECT_DIR$/tutorials_8_2_tuple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="978f5c9d-5a17-4d6d-b167-1c6c9b48cad6" name="Changes" comment="Tuple">
+      <change beforePath="$PROJECT_DIR$/tutorials_8_2_tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials_8_2_tuple.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +250,7 @@
       <workItem from="1733471797594" duration="1565000" />
       <workItem from="1733479762881" duration="3801000" />
       <workItem from="1733490269967" duration="5371000" />
-      <workItem from="1733574697933" duration="7041000" />
+      <workItem from="1733574697933" duration="7111000" />
     </task>
     <task id="LOCAL-00001" summary="Pure Python">
       <option name="closed" value="true" />
@@ -381,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733579019971</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Tuple">
+      <option name="closed" value="true" />
+      <created>1733590294335</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733590294335</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +406,8 @@
     <MESSAGE value="lambda expression" />
     <MESSAGE value="hight level" />
     <MESSAGE value="List" />
-    <option name="LAST_COMMIT_MESSAGE" value="List" />
+    <MESSAGE value="Tuple" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tuple" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

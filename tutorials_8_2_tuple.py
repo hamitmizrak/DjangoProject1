@@ -18,7 +18,7 @@ a_tuple = (1,)      # Bu bir tuple'dır.
 multi_tuple = (1, 2, 3, 4)
 
 
-######################################
+################################################################
 # Tuple ile İndeksleme ve Dilimleme
 # 1. İndeksleme:
 #    - Pozitif indeksleme: Sıfırdan başlar.
