@@ -68,7 +68,7 @@ print("merhaba bir string mi", isinstance("merhaba", str))
 print("integer ==>",dir(int))
 print("string ==>",dir(str))
 
-# 9-
+# 9- local, global
 # globals(): Global değişkenlerin sözlüğünü döndürür.
 # locals():  Yerel değişkenlerin sözlüğünü döndürür.
 glo=10
