@@ -20,14 +20,13 @@ blog_icerikleri = [
             {"kullanici": "ayse456", "yorum": "Gerçekten harika bir rehber, çok faydalı!"},
             {"kullanici": "mehmet789", "yorum": "Bilgilendirici ama biraz daha örnek olsa iyi olurdu."},
         ],
-    },
-    {
+    },{
         "blog_id": 2,
-        "yazar": "ayse456",
+        "yazar": "ayse123",
         "baslik": "Web Geliştirme için HTML ve CSS",
         "icerik": "Web geliştirme dünyasına giriş yapmak isteyenler için HTML ve CSS konularında temel bilgiler sunar. İyi bir başlangıç rehberi.",
         "kategori": "Web Geliştirme",
-        "goruntulenme": 1200,
+        "goruntulenme": 2000,
         "yorumlar": [
             {"kullanici": "ali123", "yorum": "Çok net ve açıklayıcı bir yazı, teşekkürler!"},
             {"kullanici": "zeynep654", "yorum": "HTML kısmı iyi ama CSS biraz daha detaylandırılmalı."},
@@ -35,7 +34,7 @@ blog_icerikleri = [
     },
     {
         "blog_id": 3,
-        "yazar": "mehmet789",
+        "yazar": "mehmet123",
         "baslik": "Makine Öğrenimi Nedir?",
         "icerik": "Makine öğrenimi, yapay zeka alanında bir alt daldır. Bu yazı, temel kavramlar ve uygulama alanlarını ele alır.",
         "kategori": "Yapay Zeka",
@@ -47,8 +46,8 @@ blog_icerikleri = [
     },
     {
         "blog_id": 4,
-        "yazar": "zeynep654",
-        "baslik": "SEO Teknikleriyle Blog Trafiğini Artırma",
+        "yazar": "zeynep123",
+        "baslik": "SEO Teknikleriyle Blog Trafiğini Artırma-1",
         "icerik": "SEO, web sitenizin arama motorlarında üst sıralarda yer almasını sağlar. Bu yazı, etkili SEO tekniklerini içerir.",
         "kategori": "Dijital Pazarlama",
         "goruntulenme": 2500,
@@ -58,11 +57,11 @@ blog_icerikleri = [
         ],
     }, {
         "blog_id": 5,
-        "yazar": "zeynep654",
-        "baslik": "SEO Teknikleriyle Blog Trafiğini Artırma",
+        "yazar": "zeynep456",
+        "baslik": "SEO Teknikleriyle Blog Trafiğini Artırma-2",
         "icerik": "SEO, web sitenizin arama motorlarında üst sıralarda yer almasını sağlar. Bu yazı, etkili SEO tekniklerini içerir.",
         "kategori": "Dijital Pazarlama",
-        "goruntulenme": 2500,
+        "goruntulenme": 2800,
         "yorumlar": [
             {"kullanici": "mehmet789", "yorum": "Çok işime yaradı, teşekkürler!"},
             {"kullanici": "ali123", "yorum": "SEO'yu iyi anlatmışsınız, pratik teknikler için güzel bir rehber."},
@@ -72,6 +71,30 @@ blog_icerikleri = [
 ]
 
 """
+    Kodun Özellikleri
+    Blog Sayısı ve Kategorilere Dağılım: Blog sayısını ve kategorilere göre dağılımını analiz eder.
+    Popülerlik: Görüntülenme sayısına göre en popüler blogları belirler.
+    Kelime Analizi: İçeriklerde cok kullanılan kelimeleri analiz ederek ilgi çekici noktaları ortaya çıkarır.
+    Yazar Performansı: Yazarların içeriklerini analiz ederek görüntülenme sayılarını ölçer.
+    Yorum Analizi: Bloglara yapılan yorum sayısını ve kullanıcıların katkılarını analiz eder.
+    Bu örnek, bir blog yönetim sisteminin nasıl analiz edilebileceğini gösterir ve gerçek hayatta uygulanabilir bir çözüm sunar. 
+"""
+
+# 1. Blogların toplam sayısı listeleyerek görselleştirin.
+# 2. Kategorilere göre blog sayısı  listeleyerek görselleştirin.
+# 3. Yazar başına yazılan blog sayısı listeleyerek görselleştirin.
+# 4. En popüler blog (görüntülenme sayısına göre) listeleyerek görselleştirin.
+# 5. Yorum sayısı ve en çok yorum alan blog listeleyerek görselleştirin.
+# 6. Sık kullanılan kelimeleri analiz etme listeleyerek görselleştirin.
+# 7. Kullanıcıların yaptığı toplam yorum sayısı listeleyerek görselleştirin.
+# 8. Yazarların ortalama blog görüntülenme sayısı listeleyerek görselleştirin.
+# 9. Belirli bir kelimenin geçtiği blogları bularak  listeleyerek görselleştirin.
+# 10 Bloglarda En Çok Görüntülenme Sayısına Göre İlk 3 Blog
+# 11. Bloglarda yorum sayılarının ortalamasını hesaplayın.
+#
+
+
+"""
 1. Veri Yapıları ile Çalışma
 Öğrenilecekler:
 Sözlükler (Dictionaries): Blog verilerinin her bir blog için ayrıntılı bilgileri (başlık, içerik, yorumlar vb.) içermesi, sözlüklerin kullanımını gösterir.
@@ -79,6 +102,8 @@ Listeler (Lists): Bloglar ve yorumlar bir liste olarak saklanır. Bu, liste veri
 Öğretiyor:
 Karmaşık veri yapılarını modelleme.
 İç içe geçmiş veri yapılarında gezinme.
+
+
 2. Döngüler ve Kontroller
 Öğrenilecekler:
 for Döngüleri: Bloglar arasında dolaşarak bilgi toplama (örneğin, toplam blog sayısı).
@@ -86,6 +111,8 @@ Koşullar (if): Belirli kriterlere (örneğin, bir kelimenin içerikte geçmesi)
 Öğretiyor:
 Verilere döngüyle erişim.
 Şartlı ifadelerle kontrol mekanizmaları oluşturma.
+
+
 3. Veri Analizi
 Öğrenilecekler:
 cok Kullanılan Kelimeler: Metin verilerini analiz ederek en cok kullanılan kelimeleri bulma.
@@ -93,12 +120,16 @@ Popülerlik ve Görüntülenme: Görüntülenme sayısı gibi sayısal verilerle
 Öğretiyor:
 Verilerden anlamlı bilgiler çıkarma.
 Metin analizi ve kelime frekansı hesaplama.
+
+
 4. Fonksiyonel Programlama
 Öğrenilecekler:
 Lambda Fonksiyonları: Veri sıralama (örneğin, blogları uzunluğa veya görüntülenme sayısına göre sıralama) gibi durumlarda lambda fonksiyonlarını kullanma.
 max ve sort: Veri kümesindeki maksimum veya sıralı değerleri bulma.
 Öğretiyor:
 Kodunuzu daha kısa ve etkili hale getirmek için anonim fonksiyonları kullanma.
+
+
 5. Nesne Temelli Analiz
 Öğrenilecekler:
 Bloglar ve yorumlar gibi gerçek dünyadan alınan kavramları modellemek.
@@ -106,6 +137,8 @@ Veri yapılarıyla nesne temelli bir yaklaşımı öğrenmek.
 Öğretiyor:
 Kodlamada nesnelerin temsil edilmesi.
 Veri organizasyonu ve işleme.
+
+
 6. Kullanıcı Deneyimi ve Geri Bildirim Analizi
 Öğrenilecekler:
 Kullanıcıların yorumlarını analiz ederek içerik geliştirme stratejileri belirleme.
@@ -113,6 +146,8 @@ Kullanıcıların hangi bloglarla daha fazla etkileşime girdiğini ölçme.
 Öğretiyor:
 Kullanıcı geri bildirimlerini anlamak için metin analizi.
 Müşteri odaklı geliştirme için veri toplama.
+
+
 7. Gerçek Dünya Problemlerini Modelleme
 Öğrenilecekler:
 Blog yönetim sistemleri gibi gerçek hayat problemlerini bir yazılım çözümüne dönüştürme.
@@ -120,6 +155,8 @@ Karmaşık problemleri alt problemlere bölerek çözme.
 Öğretiyor:
 Gerçek dünya senaryolarında kodlama becerilerini uygulama.
 Daha büyük projeleri yönetme.
+
+
 8. Temel Algoritma Mantığı
 Öğrenilecekler:
 Belirli bir kelimenin kaç kez geçtiğini kontrol etme.
@@ -128,6 +165,8 @@ Yazar başına ortalama görüntülenme gibi metrikler hesaplama.
 Öğretiyor:
 Verileri gruplama, filtreleme ve dönüştürme.
 Sayısal ve metinsel veri analizine yönelik algoritmalar geliştirme.
+
+
 9. Veri Görselleştirme Hazırlığı
 Öğrenilecekler:
 Çıktıları daha iyi anlamak için verileri analiz etme ve özetleme.
@@ -135,6 +174,8 @@ Sayısal ve metinsel veri analizine yönelik algoritmalar geliştirme.
 Öğretiyor:
 Çıktılardan raporlar oluşturma.
 Veri analizinden sonraki adımları planlama.
+
+
 10. Optimizasyon ve İyileştirme
 Öğrenilecekler:
 Blogları daha verimli bir şekilde sıralamak veya filtrelemek için algoritmalar geliştirme.
@@ -149,19 +190,7 @@ Veri yapıları ve organizasyonu.
 Algoritmalar ve analiz yöntemleri.
 Gerçek dünyadan alınan senaryoları kodlama ile çözme.
 Veri odaklı karar verme süreçlerini modelleme.
-Bu bilgiler, gerçek dünya uygulamaları geliştirmek isteyen herkes için kritik bir temel oluşturur ve kodlama becerilerinizi güçlendirir! 😊
-
-"""
-
-"""
-Kodun Özellikleri
-Blog Sayısı ve Kategorilere Dağılım: Blog sayısını ve kategorilere göre dağılımını analiz eder.
-Popülerlik: Görüntülenme sayısına göre en popüler blogları belirler.
-Kelime Analizi: İçeriklerde cok kullanılan kelimeleri analiz ederek ilgi çekici noktaları ortaya çıkarır.
-Yazar Performansı: Yazarların içeriklerini analiz ederek görüntülenme sayılarını ölçer.
-Yorum Analizi: Bloglara yapılan yorum sayısını ve kullanıcıların katkılarını analiz eder.
-Bu örnek, bir blog yönetim sisteminin nasıl analiz edilebileceğini gösterir ve gerçek hayatta uygulanabilir bir çözüm sunar. 😊
-
+Bu bilgiler, gerçek dünya uygulamaları geliştirmek isteyen herkes için kritik bir temel oluşturur ve kodlama becerilerinizi güçlendirir! 
 """
 
 ######################################################################################
@@ -190,6 +219,10 @@ def kategorilere_gore_blog_sayisi_grafik(blog_icerikleri):
     kategori_sayilari = {}
     for blog in blog_icerikleri:
         kategori = blog["kategori"]
+        # Sözlükte belirtilen bir anahtarın değerini döndürür.
+        # Eğer anahtar mevcutsa, o anahtara ait değeri döndürür.
+        # Eğer anahtar sözlükte yoksa, varsayılan bir değer döndürür (burada varsayılan değer 0).
+        # Eğer kategori zaten sözlükte varsa, mevcut değeri bir artırır.
         kategori_sayilari[kategori] = kategori_sayilari.get(kategori, 0) + 1
 
     for kategori, sayi in kategori_sayilari.items():
@@ -236,7 +269,6 @@ def kategorilere_gore_blog_sayisi_grafik(blog_icerikleri):
     plt.gca().spines['bottom'].set_linewidth(1.5)
     plt.gca().spines['left'].set_linewidth(1.5)
 
-
     # axis='y': Sadece Y ekseni boyunca ızgara çizgileri çizer.
     # linestyle='--': Çizgi stilini kesik çizgi olarak ayarlar.
     # alpha=0.7: Izgara çizgilerinin saydamlığını belirler.
@@ -251,9 +283,29 @@ def kategorilere_gore_blog_sayisi_grafik(blog_icerikleri):
     # plt.show: Grafiği ekranda gösterir.
     plt.show()
 
-
 # Fonksiyonu çağırarak grafik oluşturma
 kategorilere_gore_blog_sayisi_grafik(blog_icerikleri)
+
+# @@@@@@@@@@@@@@@@
+# Soru: Blogların kategorilere göre yüzdesel dağılımı nedir?
+# Çözüm: Her kategori için yüzdesel dağılım hesaplanır ve pasta grafikte gösterilir.
+def kategorilere_gore_yuzde(blog_icerikleri):
+    kategori_sayilari = {}
+    for blog in blog_icerikleri:
+        kategori = blog["kategori"]
+        kategori_sayilari[kategori] = kategori_sayilari.get(kategori, 0) + 1
+
+    # Verileri hazırlama
+    kategoriler = list(kategori_sayilari.keys())
+    blog_sayilari = list(kategori_sayilari.values())
+
+    # Pasta grafiği çizimi
+    plt.figure(figsize=(8, 8))
+    plt.pie(blog_sayilari, labels=kategoriler, autopct='%1.1f%%', startangle=140, colors=plt.cm.Paired.colors)
+    plt.title("Kategorilere Göre Blogların Yüzdesel Dağılımı", fontsize=14)
+    plt.show()
+
+kategorilere_gore_yuzde(blog_icerikleri)
 
 #####################################################################################################################
 # 3. Yazar başına yazılan blog sayısı
@@ -292,14 +344,11 @@ def yazar_basina_blog_sayisi_grafik(blog_icerikleri):
     plt.tight_layout()  # Grafik düzeni
     # Grafik kaydetme
     plt.savefig("yazar_basina_blog_sayisi_grafik.png", dpi=300)
-
-
-
     plt.show()
 
 
 # Fonksiyonu çağırarak grafik oluşturma
-yazar_basina_blog_sayisi_grafik(blog_icerikleri)
+# yazar_basina_blog_sayisi_grafik(blog_icerikleri)
 
 
 #####################################################################################################################
@@ -335,12 +384,12 @@ def en_populer_blog_grafik(blog_icerikleri):
     plt.ylabel("Blog Başlıkları", fontsize=12)  # Y ekseni etiketi
     plt.grid(axis='x', linestyle='--', alpha=0.7)  # X ekseni için ızgara
     plt.tight_layout()  # Grafik düzeni
+    plt.savefig("en_populer_blog_grafik.png", dpi=300)
     plt.show()
 
 
 # Fonksiyonu çağırma
 # en_populer_blog_grafik(blog_icerikleri)
-
 
 #####################################################################################################################
 # 5. Yorum sayısı ve en çok yorum alan blog
@@ -390,8 +439,8 @@ def blog_yorum_sayilari_grafik(blog_icerikleri):
     plt.xticks(rotation=30, fontsize=10)  # X ekseni yazılarının döndürülmesi
     plt.grid(axis='y', linestyle='--', alpha=0.7)  # Y ekseni için ızgara
     plt.tight_layout()  # Grafik düzeni
+    plt.savefig("blog_yorum_sayilari_grafik.png", dpi=300)
     plt.show()
-
 
 # Fonksiyonu çağırma
 # blog_yorum_sayilari_grafik(blog_icerikleri)
@@ -439,8 +488,8 @@ def cok_kullanilan_kelimeler_grafik(blog_icerikleri, kelime_sayisi=5):
     plt.ylabel("Kullanım Sayısı", fontsize=12)  # Y ekseni etiketi
     plt.grid(axis='y', linestyle='--', alpha=0.7)  # Y ekseni için ızgara
     plt.tight_layout()  # Grafik düzeni
+    plt.savefig("kullanici_yorum_sayilari_grafik.png", dpi=300)  # Grafik kaydetme
     plt.show()
-
 
 # Fonksiyonu çağırma
 # cok_kullanilan_kelimeler_grafik(blog_icerikleri, kelime_sayisi=5)
@@ -485,8 +534,8 @@ def kullanici_yorum_sayilari_grafik(blog_icerikleri):
     plt.xticks(rotation=30, fontsize=10)  # X ekseni yazılarının döndürülmesi
     plt.grid(axis='y', linestyle='--', alpha=0.7)  # Y ekseni için ızgara
     plt.tight_layout()  # Grafik düzeni
+    plt.savefig("kullanici_yorum_sayilari.png", dpi=300)  # Grafik kaydetme
     plt.show()
-
 
 # Fonksiyonu çağırma
 # kullanici_yorum_sayilari_grafik(blog_icerikleri)
@@ -537,8 +586,8 @@ def yazar_ortalama_goruntulenme_grafik(blog_icerikleri):
     plt.xticks(rotation=30, fontsize=10)  # X ekseni yazılarının döndürülmesi
     plt.grid(axis='y', linestyle='--', alpha=0.7)  # Y ekseni için ızgara
     plt.tight_layout()  # Grafik düzeni
+    plt.savefig("yazar_ortalama_goruntulenme.png", dpi=300)  # Grafik kaydetme
     plt.show()
-
 
 # Fonksiyonu çağırma
 # yazar_ortalama_goruntulenme_grafik(blog_icerikleri)
@@ -586,12 +635,275 @@ def kelime_gecen_bloglar_grafik(blog_icerikleri, aranan_kelime):
     plt.xticks(rotation=20, fontsize=10)  # X ekseni yazılarının döndürülmesi
     plt.grid(axis='y', linestyle='--', alpha=0.7)  # Y ekseni için ızgara
     plt.tight_layout()  # Grafik düzeni
+    plt.savefig("kelime_gecen_bloglar.png", dpi=300)  # Grafik kaydetme
     plt.show()
-
 
 # Fonksiyonu çağırma
 # kelime_gecen_bloglar_grafik(blog_icerikleri, "Python")
 
+################################################################################################
+#  10 Bloglarda En Çok Görüntülenme Sayısına Göre İlk 3 Blog
+def birlestirilmis_goruntulenme(blog_icerikleri):
+    """
+    Aynı başlığa sahip blogların görüntülenme sayılarını birleştirir.
+    """
+    birlestirilmis = {}
+    for blog in blog_icerikleri:
+        baslik = blog["baslik"]
+        goruntulenme = blog["goruntulenme"]
+        birlestirilmis[baslik] = birlestirilmis.get(baslik, 0) + goruntulenme
+
+    # Blogları sözlükten listeye çevir
+    birlestirilmis_bloglar = [{"baslik": k, "goruntulenme": v} for k, v in birlestirilmis.items()]
+    return birlestirilmis_bloglar
+
+
+def en_populer_uc_blog(blog_icerikleri):
+    # Aynı başlıkları birleştirme
+    birlestirilmis_bloglar = birlestirilmis_goruntulenme(blog_icerikleri)
+
+    # En popüler ilk 3 blogu seçme
+    en_populer_bloglar = sorted(birlestirilmis_bloglar, key=lambda x: x["goruntulenme"], reverse=True)[:3]
+
+    # Sonuçları yazdırma
+    print("\nEn Popüler İlk 3 Blog:")
+    for blog in en_populer_bloglar:
+        print(f"Başlık: {blog['baslik']}, Görüntülenme: {blog['goruntulenme']}")
+
+    # Görselleştirme
+    blog_basliklari = [blog["baslik"] for blog in en_populer_bloglar]
+    goruntulenme_sayilari = [blog["goruntulenme"] for blog in en_populer_bloglar]
+
+    plt.figure(figsize=(10, 6))
+    plt.bar(blog_basliklari, goruntulenme_sayilari, color='gold', edgecolor='black')
+    plt.title("En Çok Görüntülenen İlk 3 Blog", fontsize=14)
+    plt.xlabel("Blog Başlıkları", fontsize=12)
+    plt.ylabel("Görüntülenme Sayısı", fontsize=12)
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    plt.tight_layout()
+    plt.show()
+
+# en_populer_uc_blog(blog_icerikleri)
+
+################################################################################################
+# 11-) Bloglarda yorum sayılarının ortalamasını hesaplayın.
+# Bu ortalamanın üstünde veya altında kalan blogları tespit edin.
+
+def ortalama_yorum_sayisi_grafik(blog_icerikleri):
+    # Toplam yorum sayısını ve ortalamayı hesaplama
+    toplam_yorum = sum(len(blog["yorumlar"]) for blog in blog_icerikleri)
+    ortalama = toplam_yorum / len(blog_icerikleri)
+    toplam_blog = len(blog_icerikleri)
+
+    print(f"Toplam Blog Sayısı: {toplam_blog}")
+    print(f"Ortalama Yorum Sayısı: {ortalama:.2f}")
+
+    # Blogları gruplandırma
+    ust_bloglar = [blog for blog in blog_icerikleri if len(blog["yorumlar"]) > ortalama]
+    alt_bloglar = [blog for blog in blog_icerikleri if len(blog["yorumlar"]) <= ortalama]
+
+    # Sonuçları yazdırma
+    print("\nOrtalamanın Üzerinde Yorum Alan Bloglar:")
+    for blog in ust_bloglar:
+        print(blog["baslik"])
+
+    print("\nOrtalamanın Altında veya Eşit Yorum Alan Bloglar:")
+    for blog in alt_bloglar:
+        print(blog["baslik"])
+
+    # Görselleştirme verileri hazırlama
+    blog_kategorileri = ["Üzerinde", "Altında veya Eşit"]
+    blog_sayilari = [len(ust_bloglar), len(alt_bloglar)]
+
+    # Çubuk grafik çizimi
+    plt.figure(figsize=(10, 7))
+    plt.bar(blog_kategorileri, blog_sayilari, color=['green', 'red'], edgecolor='black')
+
+    # Başlık ve açıklamalar
+    plt.title(
+        f"Blogların Ortalama Yorum Sayısına Göre Dağılımı\n"
+        f"Toplam Blog Sayısı: {toplam_blog} | Ortalama Yorum Sayısı: {ortalama:.2f}",
+        fontsize=14,
+    )
+    plt.xlabel("Yorum Durumu", fontsize=12)
+    plt.ylabel("Blog Sayısı", fontsize=12)
+
+    # Y ekseni için ızgara çizgileri
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Değerlerin çubuk üzerine eklenmesi
+    for i, sayi in enumerate(blog_sayilari):
+        plt.text(i, sayi + 0.1, str(sayi), ha='center', fontsize=12, color='black', fontweight='bold')
+
+    # Grafik düzeni ve gösterimi
+    plt.tight_layout()
+    plt.show()
+
+#
+# ortalama_yorum_sayisi_grafik(blog_icerikleri)
+################################################################################################
+# 12- Kullanıcıların Yorum Yaptığı Blog Sayıları
+# Her bir kullanıcının kaç farklı bloga yorum yaptığını analiz edin.
+# Kullanıcıların en çok hangi kategorilerde yorum yaptığına dair bilgiler sunun.
+import matplotlib.pyplot as plt
+
+def kullanici_blog_sayilari_grafik(blog_icerikleri):
+    """
+    Kullanıcıların yorum yaptığı blog sayılarını analiz eder ve görselleştirir.
+    """
+    # Kullanıcıların blog sayısını hesaplama
+    kullanici_blog_sayilari = {}
+    for blog in blog_icerikleri:
+        for yorum in blog["yorumlar"]:
+            kullanici = yorum["kullanici"]
+            kullanici_blog_sayilari[kullanici] = kullanici_blog_sayilari.get(kullanici, set())
+            kullanici_blog_sayilari[kullanici].add(blog["blog_id"])
+
+    # Kullanıcı ve yorum yaptığı blog sayısını konsola yazdırma
+    for kullanici, bloglar in kullanici_blog_sayilari.items():
+        print(f"{kullanici}: {len(bloglar)} bloga yorum yapmış.")
+
+    # Verileri hazırlama
+    kullanicilar = list(kullanici_blog_sayilari.keys())  # Kullanıcı isimleri
+    blog_sayilari = [len(bloglar) for bloglar in kullanici_blog_sayilari.values()]  # Blog sayıları
+
+    # Çubuk grafik çizimi
+    plt.figure(figsize=(10, 6))
+    plt.bar(kullanicilar, blog_sayilari, color='skyblue', edgecolor='black')
+
+    # Grafik başlık ve etiketleri
+    plt.title("Kullanıcıların Yorum Yaptığı Blog Sayıları", fontsize=14)
+    plt.xlabel("Kullanıcılar", fontsize=12)
+    plt.ylabel("Blog Sayısı", fontsize=12)
+    plt.xticks(rotation=45, fontsize=10)  # X ekseni yazılarını döndürme
+    plt.grid(axis='y', linestyle='--', alpha=0.7)  # Y ekseni için ızgara çizgileri
+
+    # Çubukların üstüne değer ekleme
+    for i, sayi in enumerate(blog_sayilari):
+        plt.text(i, sayi + 0.1, str(sayi), ha='center', fontsize=10, color='black', fontweight='bold')
+
+    # Grafik düzeni ve gösterimi
+    plt.tight_layout()
+    plt.show()
+
+#
+# kullanici_blog_sayilari_grafik(blog_icerikleri)
+################################################################################################
+# 13-)
+# Her kategorinin toplam ve ortalama görüntülenme sayılarını hesaplayın.
+# En çok görüntülenme ortalamasına sahip kategoriyi bulun.
+
+def kategori_ortalama_goruntulenme_grafik(blog_icerikleri):
+    """
+    Kategorilere göre ortalama görüntülenme sayısını hesaplar ve çubuk grafikle görselleştirir.
+    Ayrıca toplam blog ve kategori sayısını grafiğe ekler.
+    """
+    # Kategorilere göre görüntülenme verilerini toplama
+    kategori_goruntulenme = {}
+    for blog in blog_icerikleri:
+        kategori = blog["kategori"]
+        kategori_goruntulenme.setdefault(kategori, []).append(blog["goruntulenme"])
+
+    # Kategorilere göre ortalama görüntülenme hesaplama
+    kategori_ortalama = {}
+    toplam_blog = len(blog_icerikleri)
+    toplam_kategori = len(kategori_goruntulenme)
+    for kategori, goruntulenmeler in kategori_goruntulenme.items():
+        ortalama = sum(goruntulenmeler) / len(goruntulenmeler)
+        kategori_ortalama[kategori] = ortalama
+        print(f"{kategori}: Ortalama Görüntülenme = {ortalama:.2f}")
+
+    print(f"\nToplam Blog Sayısı: {toplam_blog}")
+    print(f"Toplam Kategori Sayısı: {toplam_kategori}")
+
+    # Verileri hazırlama
+    kategoriler = list(kategori_ortalama.keys())  # Kategorilerin isimleri
+    ortalamalar = list(kategori_ortalama.values())  # Ortalama görüntülenme sayıları
+
+    # Çubuk grafik çizimi
+    plt.figure(figsize=(10, 6))
+    plt.bar(kategoriler, ortalamalar, color='lightcoral', edgecolor='black')
+
+    # Grafik başlık ve etiketleri
+    plt.title(
+        f"Kategorilere Göre Ortalama Görüntülenme\n"
+        f"Toplam Blog Sayısı: {toplam_blog} | Toplam Kategori Sayısı: {toplam_kategori}",
+        fontsize=14
+    )
+    plt.xlabel("Kategoriler", fontsize=12)
+    plt.ylabel("Ortalama Görüntülenme Sayısı", fontsize=12)
+    plt.xticks(rotation=45, fontsize=10)  # X ekseni yazılarını döndürme
+    plt.grid(axis='y', linestyle='--', alpha=0.7)  # Y ekseni için ızgara çizgileri
+
+    # Çubukların üstüne değer ekleme
+    for i, ortalama in enumerate(ortalamalar):
+        plt.text(i, ortalama + 10, f"{ortalama:.2f}", ha='center', fontsize=10, color='black', fontweight='bold')
+
+    # Grafik düzeni ve gösterimi
+    plt.tight_layout()
+    plt.show()
+
+
+#kategori_ortalama_goruntulenme_grafik(blog_icerikleri)
+################################################################################################
+# 14-) Blog içeriklerinden en çok kullanılan ikili kelimeleri bulun ve sıklıklarını görselleştirin.
+
+import matplotlib.pyplot as plt
+from collections import Counter
+
+import matplotlib.pyplot as plt
+from collections import Counter
+
+
+def en_cok_ikili_kelimeler_grafik(blog_icerikleri, kelime_sayisi=5):
+    tum_bigrames = []
+
+    # Tüm blog içeriklerinden bigram'leri toplama
+    for blog in blog_icerikleri:
+        kelimeler = blog["icerik"].lower().strip().split()
+        tum_bigrames.extend(zip(kelimeler, kelimeler[1:]))
+
+    # Bigram frekanslarını hesaplama
+    bigram_sayilari = Counter(tum_bigrames)
+    en_cok_bigrames = bigram_sayilari.most_common(kelime_sayisi)
+
+    # En çok kullanılan bigram'leri konsola yazdırma
+    print("\nEn Çok Kullanılan İkili Kelimeler:")
+    for bigram, sayi in en_cok_bigrames:
+        print(f"{' '.join(bigram)}: {sayi} kez")
+
+    # Verileri hazırlama
+    bigram_kelimeler = [' '.join(bigram) for bigram, _ in en_cok_bigrames]
+    bigram_frekanslari = [sayi for _, sayi in en_cok_bigrames]
+
+    # Kontrol
+    print("Bigram Kelimeler (Grafik):", bigram_kelimeler)
+    print("Bigram Frekansları (Grafik):", bigram_frekanslari)
+
+    # Çubuk grafik çizimi
+    plt.figure(figsize=(10, 6))
+    plt.bar(bigram_kelimeler, bigram_frekanslari, color='lightblue', edgecolor='black')
+
+    # Grafik başlık ve etiketleri
+    plt.title("En Çok Kullanılan İkili Kelimeler", fontsize=14)
+    plt.xlabel("İkili Kelimeler", fontsize=12)
+    plt.ylabel("Frekans", fontsize=12)
+    plt.xticks(rotation=45, fontsize=10)
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Çubukların üstüne değer ekleme
+    for i, frekans in enumerate(bigram_frekanslari):
+        plt.text(i, frekans + 0.5, str(frekans), ha='center', fontsize=10, color='black', fontweight='bold')
+
+    # Grafik düzeni ve gösterimi
+    plt.tight_layout()
+    plt.show()
+
+#
+# en_cok_ikili_kelimeler_grafik(blog_icerikleri, kelime_sayisi=5)
+
+
+################################################################################################
 ################################################################################################
 """
 1. Kütüphane Kurulumu
