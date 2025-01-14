@@ -116,19 +116,28 @@ from django.template.defaultfilters import random
 #### best practices #################################################################
 """
 1-) Noktalı virgül yazabilirsiniz veya yazmayabilirsiniz.
-2-) Python’da değişken isimleri büyük ve küçük harfe duyarlıdır. 
+Python, noktalı virgül (;) kullanımını destekler, ancak bu zorunlu değildir ve Python topluluğunda pek tercih edilmez. 
+Python'un tasarım felsefesi "okunabilirliği artırmak" olduğu için satır sonlarını belirtmek için yeni satır kullanmak daha yaygındır.
+
+2-) Python’da değişken isimleri büyük ve küçük harfe duyarlıdır. snake_case yazım şeklinde devam edelim.  
+Python'da değişken isimlendirme konvansiyonları için snake_case kullanımı yaygın olarak tercih edilir. 
+Ancak, camelCase de kullanılabilir, ancak bu genellikle Python topluluğu tarafından yaygın bir standart olarak görülmez.
+
 3-) Python'da girintileme zorunludur. Girinti, bir kod bloğunu belirtmek için kullanılır ve doğru girintileme olmadan Python kodu hata verecektir.
-- Standart girinti genellikle 4 boşluk karakteri ile yapılır. Tab tuşunu kullanmak yerine boşluk karakterleri kullanmak daha yaygın ve önerilen bir yaklaşımdır.
+- Standart girinti genellikle 4 boşluk karakteri ile yapılır. 
+Tab tuşunu kullanmak yerine boşluk karakterleri kullanmak daha yaygın ve önerilen bir yaklaşımdır.
 if x > 10:
     print("x is greater than 10")   4 boşluk kullanılarak girintilendi
 4-) Bir satırın uzunluğu en fazla 79 karakter olmalıdır. 
 5-) Fonksiyonlar ve sınıflar arasında iki boş satır bırakılmalıdır.
+
 def first_function():
     pass
 
 
 def second_function():
     pass
+    
 6-) Fonksiyon ve değişken isimleri küçük harflerden oluşmalı ve kelimeler arasına alt çizgi (_) konulmalıdır (snake_case).
 
 7-) Sabit değerler için kullanılan değişken isimleri büyük harflerle yazılmalıdır. 

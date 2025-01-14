@@ -1,0 +1,3 @@
+# görselleştirme örnekleri için aşağıdaki kütüphaneleri eklemelisiniz:
+matplotlib
+seaborn
