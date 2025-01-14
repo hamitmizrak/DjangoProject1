@@ -91,7 +91,7 @@ blog_icerikleri = [
 # 9. Belirli bir kelimenin geçtiği blogları bularak  listeleyerek görselleştirin.
 # 10 Bloglarda En Çok Görüntülenme Sayısına Göre İlk 3 Blog
 # 11. Bloglarda yorum sayılarının ortalamasını hesaplayın.
-#
+
 
 
 """
