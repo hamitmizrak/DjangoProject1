@@ -158,8 +158,6 @@ squares = [x  2 for x in range(10)]
 12-) Döngüler yazarken Python'un sunduğu iterator ve generator yapılarından faydalanmak, kodu daha verimli ve temiz hale getirir.
 for i in range(10):
     print(i)
-
-
 """
 
 #####################################################################################

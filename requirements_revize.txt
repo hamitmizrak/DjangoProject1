@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
 # görselleştirme örnekleri için aşağıdaki kütüphaneleri eklemelisiniz:
-matplotlib  # pip install matplotlib
-seaborn
+matplotlib
+#seaborn
+seaborn==0.11.2

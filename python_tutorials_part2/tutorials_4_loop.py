@@ -41,7 +41,7 @@ while i < 5:
 # while password_data !=123456:
 #     password_data = int(input("Şifrenizi giriniz\n"))
 #     count +=1
-# print("Şifreniz Doğru: deneme hakkınız. ",count)
+# print("Şifreniz Doğru: python_tutorials_part1 hakkınız. ",count)
 
 
 # Sonsuz

@@ -225,6 +225,8 @@ def kategorilere_gore_blog_sayisi_grafik(blog_icerikleri):
         # Eğer kategori zaten sözlükte varsa, mevcut değeri bir artırır.
         kategori_sayilari[kategori] = kategori_sayilari.get(kategori, 0) + 1
 
+    # Python'da kategori_sayilari.items() bir dictionary (sözlük) yapısının öğelerine erişmek için kullanılan bir metottur.
+    # items() metodu, sözlüğün tüm anahtar-değer çiftlerini döndürür.
     for kategori, sayi in kategori_sayilari.items():
         print(f"{kategori}: {sayi} blog")
 
@@ -233,7 +235,7 @@ def kategorilere_gore_blog_sayisi_grafik(blog_icerikleri):
     blog_sayilari = list(kategori_sayilari.values())  # Blog sayıları
 
     # Çubuk grafik çizimi
-    #  Grafik alanının boyutunu 8 birim genişlik ve 5 birim yükseklik olarak ayarlar.
+    # Grafik alanının boyutunu 8 birim genişlik ve 5 birim yükseklik olarak ayarlar.
     #
     plt.figure(figsize=(8, 5))  # Grafik boyutu
 
@@ -258,6 +260,8 @@ def kategorilere_gore_blog_sayisi_grafik(blog_icerikleri):
     # rotation=30: Kategori isimlerini 30 derece eğimle yazdırır.
     # fontsize=10: X ekseni yazılarının boyutunu belirler.
     plt.xticks(rotation=30, fontsize=12, color='darkred')  # X ekseni yazıları
+
+    # Bu kodun görevi, bir grafik üzerindeki çubukların (barların) üzerine etiket eklemektir
     for i, val in enumerate(blog_sayilari):
         plt.text(i, val + 0.2, str(val), ha='center', fontsize=12, color='darkgreen', fontweight='bold')
 
@@ -305,7 +309,7 @@ def kategorilere_gore_yuzde(blog_icerikleri):
     plt.title("Kategorilere Göre Blogların Yüzdesel Dağılımı", fontsize=14)
     plt.show()
 
-kategorilere_gore_yuzde(blog_icerikleri)
+# kategorilere_gore_yuzde(blog_icerikleri)
 
 #####################################################################################################################
 # 3. Yazar başına yazılan blog sayısı
@@ -353,8 +357,6 @@ def yazar_basina_blog_sayisi_grafik(blog_icerikleri):
 
 #####################################################################################################################
 # 4. En popüler blog (görüntülenme sayısına göre)
-import matplotlib.pyplot as plt
-
 
 def en_populer_blog_grafik(blog_icerikleri):
     """
